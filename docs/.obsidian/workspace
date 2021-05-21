@@ -78,6 +78,17 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "16c35936ee70e6bf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
@@ -88,6 +99,7 @@
   },
   "active": "23827c6fd3c1fb81",
   "lastOpenFiles": [
+    "Index.md",
     "Untitled.md"
   ]
 }
