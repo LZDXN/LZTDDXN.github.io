@@ -1,1 +1,29 @@
+baseurl: /
 theme: jekyll-theme-minimal
+
+title: LZTDDXNer's space
+description: If you haven't known me yet, hello! I am the appearence of somewhere--maybe the one on the stage, on the corner, or... just by your side. But who knows? Who cares about a existance can't even have a correct grammar?
+safe: true
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+include: ['_pages']
+exclude: []
+
+logo: "imgs/logo.png"
+
+collections:
+  pages:
+    output: true
+    permalink: /:slug
+
+defaults:
+  - scope:
+      path: "/*.md"
+    values:
+      layout: "default"

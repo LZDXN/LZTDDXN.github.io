@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <link rel="icon" href="../imgs/logo.png">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--<link rel="stylesheet" href="/assets/css/style.css?v=1f41dfb826e07530ef195d8ef8b7d706c001733d">-->
+    
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="{{ "/" | absolute_url }}">NCPA Competition Union</a></h1>
+        
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <blockquote>
+        <p class="view">Never mind, then do what you do</p>
+        </blockquote> 
+        <div>
+        </div>
+      </header>
+      <section>
+        {{ content }}
+      </section>
+      <footer>
+        <p><small>So, you gonna discover something here?</small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>
