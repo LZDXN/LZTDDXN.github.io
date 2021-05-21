@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Index.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Index.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +99,7 @@
   },
   "active": "23827c6fd3c1fb81",
   "lastOpenFiles": [
+    "README.md",
     "Index.md",
     "Untitled.md"
   ]
