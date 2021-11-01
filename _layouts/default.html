@@ -1,41 +1,44 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ site.tabTitle }}</title>
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-    <link rel="stylesheet" href="/assets/css/modify.css">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.tabTitle }}</title>
+  <link rel="icon" href="{{ site.logo }}">
 
-    <style></style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title }}</a></h1>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+  {% seo %}
+  <link rel="stylesheet" href="{{ " /assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
 
-        <p>{{ site.description }}</p>
 
-      </header>
-      <section>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1><a href="{{ " /" | absolute_url }}" style="margin: auto; color: black; font-size: 32px;">{{ site.title }}</a></h1>
+      {% if site.logo %}
+      <img src="{{site.logo | relative_url}}" alt="Logo" />
+      {% endif %}
+
+      <p>{{ site.description }}</p>
+
+    </header>
+    <section>
 
       {{ content }}
 
-      </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Welcome to the crazy paradise</small></p>
-      </footer>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  </body>
+    </section>
+    <footer>
+      {% if site.github.is_project_page %}
+      <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p><small>Welcome to the crazy paradise</small></p>
+    </footer>
+  </div>
+  <script src="{{ " /assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+
 </html>
