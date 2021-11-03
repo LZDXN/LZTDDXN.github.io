@@ -15,6 +15,6 @@ layout: default
 
 # Index of AP Note 2022
 [AP Seminar Notes]() <br />
-[AP Psychology Notes]() <br />
-[AP Statistic Notes]() <br />
-[AP Computer Science A (CSA) Notes]() <br />
+[AP Psychology Notes](./Psychology/Psychology_Notes.md) <br />
+[AP Statistic Notes](./Statistics/Statistic_Notes.md) <br />
+[AP Computer Science A (CSA) Notes](./Computer_Science_Application/Computer_Science_A_(CSA)_Notes.md) <br />
