@@ -2,6 +2,8 @@ tabTitle: LZDXN's Share Space
 title: LZDXN
 logo: /assets/img/logo.jpg
 github.owner_url: https://github.com/LZTDDXN
+github.owner_name: LZDXN
 description: Study hard, then amaze everyone.
 google_analytics:
 theme: jekyll-theme-minimal
+github.is_project_page: true
