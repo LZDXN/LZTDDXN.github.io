@@ -1,11 +1,8 @@
 ## Part by Units
-- Unit 1 [[Kinematics]]
-- Unit 2 [[Dynamics]]
-- Unit 3 [[Circular Motion and Gravitation]]
-- Unit 4 [[Energy]]
-- Unit 5 [[Momentum]]
-- Unit 6 [[Simple Harmonic Motion]]
--  Unit 7 [[Torque and Rotational Motion]]
-
-## Part by Practice Notes
-- 2018
+[Unit 1 Kinematics](./Kinematics.md) <br />
+[Unit 2 Dynamics](./Dynamics.md) <br />
+[Unit 3 Circular Motion and Gravitation](./Circular_Motion_and_Gravitation.md) <br />
+[Unit 4 Energy](./Energy.md) <br />
+[Unit 5 Momentum](./Momentum.md) <br />
+[Unit 6 Simple Harmonic Motion](./Simple_Harmonic_Motion.md) <br />
+[Unit 7 Torque and Rotational Motion](./Torque_and_Rotational_Motion.md) <br />
