@@ -50,9 +50,7 @@ a^{\frac{1}{n}}=\sqrt[n]{a}
 ### Trigonometry
 
 ## Geometry
-```ad-alert
-If I don't make this part clear, I will never be in AIME
-```
+
 ### Plane Geometry and Solid Geometry
 ### Coordinate System and Vector
 ### Analytic Geometry
