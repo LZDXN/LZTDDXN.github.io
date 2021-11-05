@@ -11,7 +11,7 @@ layout: default
 [Physics 2 Study Notes](/Physics_2/Physics_2_Study_Notes.md) <br />
 [Macro-Economics Study Notes](/Economics/Demand_and_Supply.md) <br />
 [Micro-Economics Study Notes](/Economics/Demand_and_Supply.md) <br />
-[Computer Science Principle](/Computer_Science_Principle/Computer_Science_Principle.md) <br />
+[Computer Science Principle](/Computer_Science_Principle/Edit_of_Leon's_Note_by_Coco.md) <br />
 
 # Index of AP Note 2022
 [AP Seminar Notes]() <br />
